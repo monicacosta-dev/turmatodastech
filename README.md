@@ -16,7 +16,7 @@ O repositório contendo os conteudos das Aulas Assíncronas -  :
 3. Operadores
 4. Estruturas de Controle (condicionais e loops)
 5. Funções
-7. Arrays e Iteração
+7. Arrays e Matriz
 
 
 ## Recursos Adicionais - Segue alguns site para estudos
