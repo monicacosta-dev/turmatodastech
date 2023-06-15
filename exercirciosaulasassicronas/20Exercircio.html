@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 20  - Exercircio</title>
+    <!-- JS -->
+
+    <script>
+       //Obter Media , onde retornar a situação do aluno e a media
+       function obterMedia(){
+        //obter as notas
+            var nota1  = parseFloat(document.getElementById('nota1').value)
+            var nota2  = parseFloat(document.getElementById('nota2').value)
+
+        //Realizar o calculo da media vou pegar a função calculo
+         var  media = calculoMedia(nota1,nota2);
+
+         //verificar situação do aluno vou trazer função situação
+          var condicao = situacao(media)
+
+          //mensagem
+
+          document.write('A media é '+media+ ' e sua situação é ' +condicao)
+
+       }
+
+       // Calculo de Média, onde as notas serão capturada no input
+       function calculoMedia(nota1, nota2) { //parametros
+         //calcular a media return
+            return (nota1+nota2)/2
+
+       }
+
+       //Situação do alunose foi aprovado ou não
+       function situacao(media){
+        // condicional para verificar se foi aprovado ou não
+        return media >= 7 ? "Aprovado!" : "Reprovado"      }
+    </script>
+    </head>
+<body>
+    <!-- criar um formulario simples -->
+    <input type="text" placeholder="Informe a primeira nota" id="nota1">
+    <input type="text" placeholder="Informe a segunda nota" id="nota2">
+    <button onclick="obterMedia()">Calcular Média</button>
+
+</body>
+</html>

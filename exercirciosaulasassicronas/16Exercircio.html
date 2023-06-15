@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 16 - Exercircio - Tabuada </title>
+    <!-- JS -->
+
+    <script >
+        /*
+        Desenvolver um sistema onde o usuario informa um numero,
+        em seguida exibaa tabuada´!!
+        */
+
+        //Informa os dados para calculo da tabuada"!!
+        var numero  = parseInt(prompt('Digite o numero  da tabuada de!'));
+         document.write('<h1> Tabuada de ' + numero + '</h1>' + '<br>' )
+        //gerar a tabuada
+        for (var contador = 0; contador < 11; contador++) {
+             var tabuada = (tabuada = contador * numero)
+            
+             document.write(numero +  ' x ' + contador + ' = ' + tabuada + '<br>')
+            
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
