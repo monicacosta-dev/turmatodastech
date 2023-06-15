@@ -1,10 +1,10 @@
-# Aulas de JavaScript Todas Tech - Imãs
+# Aulas de JavaScript Todas Tech - Imãs ☕ 📚
 
 Este repositório contém materiais e exemplos de código utilizados nas aulas de JavaScript. Aqui você encontrará recursos para aprender conceitos básicos e avançados de JavaScript, além de projetos práticos para consolidar o aprendizado.
 
-## Conteúdo
+## Conteúdo ministrada pelo professor Ralf
 
-O repositório contendo os conteudos das Aulas Assíncronas - ministrada pelo professor Ralfi :
+O repositório contendo os conteudos das Aulas Assíncronas -  :
 
 - `aulas/exercircios`: Pasta contendo os arquivos das aulas, separados por tópicos.
 
@@ -17,7 +17,7 @@ O repositório contendo os conteudos das Aulas Assíncronas - ministrada pelo pr
 4. Estruturas de Controle (condicionais e loops)
 5. Funções
 7. Arrays e Iteração
-8. 
+
 
 ## Recursos Adicionais - Segue alguns site para estudos
 
