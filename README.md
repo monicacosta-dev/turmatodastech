@@ -7,6 +7,7 @@ Este repositório contém materiais e exemplos de código utilizados nas aulas d
 O repositório contendo os conteudos das Aulas Assíncronas -  :
 
 - `aulas/exercircios`: Pasta contendo os arquivos das aulas, separados por tópicos.
+- `exercircios beecrowd`: Pasta contendo os arquivos das aulas, separados por tópicos.
 
 
 ## Tópicos Abordados
