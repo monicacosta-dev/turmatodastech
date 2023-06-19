@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 1009 - Exercircio - Salário com Bônus </title>
+
+<!-- JavaScript -->
+<script>
+    
+    //ler :nomeVendedor, salarioFixoVendedor,totalDeVendas;
+
+    var nomeVendedor = prompt('Digite o nome do Vendedor!')
+    var salarioFixoVendedor = parseFloat(prompt('Digite o salario fixo do vendedor!'))
+    var totalDeVendasMes = parseFloat(prompt('Digite o total de vendas!'))
+
+    //para usar quando for para o beeccwowd
+   //var nomeVendedor = lines.shift();
+   //var salarioFixoVendedor = parseFloat(lines.shift())
+  //var totalDeVendasMes = parseFloat(lines.shift())
+
+    //Calculo da comissão por venda no valor de 15% (0.15)
+    var calculoComisao = (totalDeVendasMes * 0.15)
+    var totalReceber = (salarioFixoVendedor + calculoComisao)
+
+    // mostrando na tela
+    document.write('<h1> O montante a receber  é ' + totalReceber.toFixed(2) + '</h1>')
+    
+    //para usar quando for para o beeccwowd
+   
+   // console.log('TOTAL = R$ ' + totalReceber.toFixed(2))
+
+    //para usar quando for para o beeccwowd
+   
+</script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 1051 - Exercircio - Imposto de Renda </title>
+
+<!-- JavaScript -->
+<script>
+    /*
+        Dica para a logica do calculo do Imposto de Renda:
+        Se tem renda igual a 2000
+        Sera : 2000 - 1000 = 1000 insento 
+               3002 - 1000 = 2002 até 3000 8%
+               4050 - 1000 = 3050 ate 4500 18%
+               5600 - 1000 = 4600  pagara  28%
+    */
+
+    //ler : sálario
+
+    var salario = parseFloat(prompt('Digite o salário!'));
+
+    //Verificando mes calculo do Imposto
+
+     if (salario <= 2000.00)
+      {
+         document.write("Isento");
+      }
+      else if (salario <= 3000.00)
+      {
+          salario -= 2000.00;
+          salario *= 0.08;
+          document.write(`R$ ${salario.toFixed(2)}`);
+      }
+      else if (salario <= 4500.00)
+      {
+          salario -= 3000.00;
+          salario *= 0.18;
+          salario += (1000 * 0.08);
+          document.write(`R$ ${salario.toFixed(2)}`);
+      }
+      else
+      {
+          salario -= 4500.00;
+          salario *= 0.28;
+          salario += (1500 * 0.18) + (1000 * 0.08);
+          document.write(`R$ ${salario.toFixed(2)}`);
+      }
+  
+    /*
+     para usar quando para usar no beeccwowd
+     var salario = parseFloat(lines.shift());
+
+      if (salario <= 2000.00)
+      {
+          console.log("Isento");
+      }
+      else if (salario <= 3000.00)
+      {
+          salario -= 2000.00;
+          salario *= 0.08;
+          console.log(`R$ ${salario.toFixed(2)}`);
+      }
+      else if (x <= 4500.00)
+      {
+          salario -= 3000.00;
+          salario *= 0.18;
+          salario += (1000 * 0.08);
+          console.log(`R$ ${salario.toFixed(2)}`);
+      }
+      else
+      {
+          salario -= 4500.00;
+          salario *= 0.28;
+          salario += (1500 * 0.18) + (1000 * 0.08);
+          console.log(`R$ ${salario.toFixed(2)}`);
+      }
+    */
+
+   
+</script>
+</head>
+<body>
+    
+</body>
+</html>
